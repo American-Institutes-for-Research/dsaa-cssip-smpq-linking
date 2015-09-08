@@ -72,6 +72,8 @@ The script looks for a file named `config.properties`. An example is provided in
 <td>Upload links to the database.</td>
 </tr>
 
+</table>
+
 ## Record linkage program
 
 The programs `Match.java` and `Assign.java` in the `Library` folder will need to be compiled in order to run the match step. You will need the record linkage jar file file in your class path in order to compile.
@@ -83,4 +85,3 @@ You will need two input files:
 * The "life sciences" file, which provides a list of ProQuest subject codes that should be flagged as belonging to the life sciences
 * the `ssnnamesout.dat` file, which is the output file from the name/gender prediction paper.
 
-</table>
